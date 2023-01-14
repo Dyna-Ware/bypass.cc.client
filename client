@@ -1,7 +1,29 @@
+--[[
+  mm                                                                         
+ m@@                                                                         
+  @@                                                                         
+  @@m@@@@m  *@@*   *@@**@@@@@@@@m  m@*@@m   m@@*@@@ m@@*@@@   m@@*@@  m@@*@@ 
+  @@    *@@   @@   m@    @@   *@@ @@   @@   @@   ** @@   **  @@*  @@ @@*  @@ 
+  !@     @@    @@ m!     !@    @@  m@@@!@   *@@@@@m *@@@@@m  @!      @!      
+  !!!   m@!     @@!      !@    !@ @!   !@        @@      @@  @!m    m@!m    m
+  !!     !!     @!!      !@!   !!  !!!!:!   *!   @! *!   @!  !!      !!      
+  :!!   !!!     !!:      !@   !!! !!   :!   !!   !! !!   !!!!!:!    !!:!    !
+  : : : ::      !!       :!: : :  :!: : !:  : :!:   : :!:  :  : : :   : : :  
+              ::!        ::                                                  
+            :::        : : ::                                                
+
+
+                        made for the survival game in 2023.
+
+
+
+
+]]--
+
 local version = "1.3.5"
+local versiontest -- makes sure correct version
  
- 
- print("test bypass")
+-- print("test bypass") bypass finished no test needed 
  local player = game:GetService("Players").LocalPlayer
       local old
       old = hookmetamethod(game,"__namecall",function(self,...)
